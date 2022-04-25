@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-
+/*Inicio barra menú*/
 header{    
     position: fixed;
     top: 0;
@@ -26,12 +26,31 @@ header .menu{
 header .menu a{
     margin-left: 2rem;
 }
+/*Fin barra menú*/
 
 .bienvenida{
     padding-top: 8rem;
     margin-left: 25rem;
 }
 
-body{
-    background-color: #aaaaaa;
+.videos{
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;   
 }
+
+.videos .row{
+    padding-bottom: 2rem;
+}
+
+.body{
+    background-color: #aaaaaa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.piePagina{
+    background-color: whitesmoke;
+    padding: 50px 0px;
+    display: flex;
+}
+
