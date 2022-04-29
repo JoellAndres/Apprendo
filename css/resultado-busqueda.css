@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*Inicio barra menú*/
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+header{    
+    background-color: #201F1F;
+    position: fixed;
+    opacity: 2;
+    top: 0;
+    width: 100%;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+
+.bienvenida{
+    margin-top: 10%;
+    
+    
+}
+.bienvenida .container .row .titulo h2{
+    color: black;
+    text-align: center;
+}
+.bienvenida .container .seccion-buscador{
+    margin-top: 5%;
+}
+.bienvenida .container .seccion-buscador .col-md-6 form .form-group{
+    background-color: lightblue;
+    display: flex;
+}
+.bienvenida .container .row .col-md-6 form .form-group .btn-buscar{
+    background-color: #201F1F;
+    color: white;
+}
+.videos{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.videos .container .row .col-md-3 {
+    margin-top: 5%;
+}
+.videos .container .row .col-md-3 .card{
+    height:100%;
+    position: relative;
+}
+.videos .container .row .col-md-3 .card .card-body{
+    position: relative;
+}
+.videos .container .row .col-md-3 .card .card-body a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+footer{
+   background-color: #201F1F;
+}
+

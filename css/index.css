@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/girl-laptop.jpg);
+    background-size: cover;
+    
+    
+}
+
+
+
+.seccion-principal{
+    padding-top: 10%;
+    position: relative;
+}
+.seccion-principal .container .row .derecha img{
+    width: 100%;
+} 
+.seccion-principal .container .row .izquierda .titulo h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    transition: 0.8s;
+}
+.seccion-principal .container .row .izquierda .buscador{
+    margin-top: 6%;
+}
+.seccion-principal .container .row .izquierda .buscador form .form-group {
+    text-align: center;
+}
+.seccion-principal .container .row .izquierda .buscador form .form-group .btn{
+    margin-top: 2%;
+    width: 50%;
+    background-color: #201F1F;
+    
+}
+.seccion-principal .container .row .izquierda .buscador form .form-group .btn-primary:visited{
+    border: red;
+}
