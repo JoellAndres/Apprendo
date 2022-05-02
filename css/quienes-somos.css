@@ -1,0 +1,35 @@
+body{
+    background: none;
+}
+header{
+    background-color: #201F1F;
+
+}
+.seccion-principal .container .row{
+    transform: skew(-20deg);
+    
+} 
+.seccion-principal .container .row .col-md-12 .titulo-quienes-somos{
+    text-align: center;
+    background-color: #201F1F;
+    color: white;
+    
+}
+.seccion-principal .container .fila-descripcion{
+    margin-top: 10%;
+    transform: skew(0deg);
+} 
+.seccion-principal .container .row .col-md-6 .img-descripcion{
+    text-align: center;
+} 
+.seccion-principal .container .row .col-md-6 .descripcion{
+    
+} 
+.seccion-principal .container .row .col-md-6 .descripcion h2{
+    
+}
+.seccion-principal .container .row .col-md-6 .descripcion p{
+    margin-top: 18%;
+    font-size: 21px;
+    
+}
